@@ -1,5 +1,14 @@
 <h1>Listing posts</h1>
 
+<form>
+  <%=text_field_tag "q", params[:q] %>
+  <input type="submit" value="Search">
+</form>
+
+<% if @search%>
+  <h3><%=@search.total%> result(s)</h3>
+<% end%>
+
 <table>
   <tr>
     <th>Title</th>
