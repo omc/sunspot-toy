@@ -1,1 +1,1 @@
-require "websolr-rails"
+require "websolr-rails-adapter"
