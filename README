@@ -15,5 +15,9 @@ Here's how I made it:
 Start it with:
   
 	rake db:migrate
+	
+	# -- Using local index --
   rake sunspot:solr:run
   ./script/server
+  # -- Or using remote index --
+	WEBSOLR_URL=http://index.websolr.com/solr/<api-key> ./script/server
