@@ -19,6 +19,8 @@ Rails::Initializer.run do |config|
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"
   # config.gem "sqlite3-ruby", :lib => "sqlite3"
   # config.gem "aws-s3", :lib => "aws/s3"
+  
+  config.gem "escape" # sunspot dependency
   config.gem "websolr-rails", :version => '>= 2', :source => "http://gemcutter.org"
   config.gem "outoftime-sunspot", :source => "http://gems.github.com", :lib => "sunspot"
   config.gem "outoftime-sunspot_rails", :source => "http://gems.github.com", :lib => "sunspot/rails"

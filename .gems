@@ -1,3 +1,4 @@
+escape
 websolr-rails --version '>= 2s' --source http://gemcutter.org 
 outoftime-sunspot --source=http://gems.github.com
 outoftime-sunspot_rails --source=http://gems.github.com

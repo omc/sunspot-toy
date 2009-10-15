@@ -1,7 +1,11 @@
-This is a simple app that uses Sunspot to index a Rails scaffold.  It's setup to work with Websolr, through the websolr-rails gem.
+This is a simple app that uses Sunspot to index a Rails scaffold.  It's setup to use Websolr in production mode.
+
+Instructions on using Sunspot in Rails can be found at http://github.com/outoftime/sunspot_rails.  I'm pretty much following that, and adding the websolr-rails gem.
 
 Here's how I made it:
 
 - Create Rails project
 - Generate a Post scaffold
 - Add config.gems for websolr-rails, sunspot, sunspot_rails to environment.rb, and populate a .gems file for Heroku
+- script/generate sunspot
+- echo "require 'sunspot/rails/tasks'" > lib/tasks/sunspot.rake
