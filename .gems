@@ -1,6 +1,1 @@
-haml
-optiflag
-escape
-websolr-rails --version '>= 2.0.5' --source http://gemcutter.org 
-outoftime-sunspot --source=http://gems.github.com
-outoftime-sunspot_rails --source=http://gems.github.com
+websolr-sunspot_rails
