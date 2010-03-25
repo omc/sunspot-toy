@@ -1,3 +1,4 @@
+load "websolr-sunspot_rails.rb"
 class Post < ActiveRecord::Base
   searchable do
     text :title, :content
