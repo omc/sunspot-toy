@@ -1,3 +1,3 @@
-rails -v 2.3.5
-pg
-websolr-sunspot_rails
+gem "rails", "2.3.5"
+gem "pg"
+gem "websolr-sunspot_rails"
